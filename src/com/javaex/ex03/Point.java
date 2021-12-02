@@ -35,20 +35,29 @@ public class Point{
 	// 메소드 일반
 
 	@Override
-	public boolean equals(Point obj) {
-		Point p = (Point)obj;
-		//a.x == b.x && this.y == b.y
-		if(this.x ==p.x && this.y==p.y) {
-			return true;
-		}else {
-			return false;
-		}
-		
-	} 
-	
 	public String toString() {
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
 
+	
+	@Override
+	public boolean equals(Object obj) {
+		Point p =(Point)obj;   //Object 다운캐스팅
+		// a.x==b.x &&  a.y==b.y
+		
+		/*
+		System.out.println("a.x=" + this.x);
+		System.out.println("a.y=" + this.y);
+		
+		System.out.println("b.x=" + p.x);
+		System.out.println("b.y=" + p.y);
+		*/
+		
+		if(this.x==p.x  && this.y==p.y) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 	
 }
