@@ -20,7 +20,7 @@ public class StringApp02 {
 		a = a.trim();
 		System.out.println("--" + a + "--");
 		
-		//replace(): 특정 부분을 입력값으로 대체함
+		//replace(): 특정 부분을 입력값으로 대체함. 예를 들어 유저가 전화번호 중간에 -를 입력한 걸 정리하고 싶을 때 ("-","")로
 		a = a.replace("ab", "최승은");
 		System.out.println(a);
 		
@@ -30,6 +30,16 @@ public class StringApp02 {
 			System.out.println(sArray[i]);
 		}
 				
+		String str = "Heloo JAVA!";
+				
+		String r01 = str.substring(3);
+		System.out.println(r01);
+		
+		String r02 = str.substring(8);
+		System.out.println(r02);
+		
+		String r03 = str.substring(3,8);//바로 위와 상황을 비교하면 메소드오버로딩(파라미터 늘림)한 결과. 후자에 쓴 문자열 <전>까지 출력!
+		System.out.println(r03);
 	}
 
 }
