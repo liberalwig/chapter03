@@ -16,7 +16,7 @@ public class Rectangle {
 		this.height = height;
 	}
 
-	//메소드 g-s
+	//메소드 gs
 	public int getWidth() {
 		return width;
 	}
