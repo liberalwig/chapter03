@@ -1,6 +1,6 @@
 //2021.12.3(금)11:47수업,
 
-package com.javaex.ex05;
+package com.javaex.ex06;
 
 public class StringApp02 {
 
