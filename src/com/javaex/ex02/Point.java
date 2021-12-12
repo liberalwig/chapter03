@@ -1,6 +1,8 @@
+//2021.12.2(목)오후 대면수업 멍해서 들어도 이해 안 했고 2021.12.12(일)15:40에 영상 복습(사실상 최초)
+
 package com.javaex.ex02;
 
-public class Point{
+public class Point {
 
 	// 필드
 	private int x;
@@ -39,6 +41,4 @@ public class Point{
 		return "Point [x=" + x + ", y=" + y + "]";
 	}
 
-
-	
 }
