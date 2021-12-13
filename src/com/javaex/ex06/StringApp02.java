@@ -7,7 +7,8 @@ public class StringApp02 {
 	public static void main(String[] args) {
 		
 		String a = " abcd";
-		String b = ",efg ";
+		St
+		ring b = ",efg ";
 		
 		System.out.println(a.concat(b));
 		System.out.println(b.concat(a));
