@@ -35,7 +35,7 @@ public class PointApp {
 		System.out.println("=============================");
 		
 		
-		//equals() -->객체가 같은지 비교  vs ==
+		//equals() -->객체가 같은지 비교 vs ==
 		System.out.println("#obj.equals()");
 		System.out.println(obj01.equals(obj01));
 		System.out.println(obj01.equals(obj02));
