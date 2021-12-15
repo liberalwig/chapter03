@@ -1,6 +1,6 @@
 package com.javaex.ex01;
 
-public class PointApp {
+public class PointApp { 
 
 	public static void main(String[] args) {
 
