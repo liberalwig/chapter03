@@ -40,7 +40,6 @@ public class PointApp {
 		System.out.println(obj01.equals(obj01));
 		System.out.println(obj01.equals(obj02));
 		System.out.println(obj01==obj01);
-		
 	}
 
 }
