@@ -17,7 +17,7 @@ public class PointApp {
 		System.out.println(obj.getClass());
 		System.out.println("=============================");
 		
-		//hashCode() -->주소값에 대응되는 중복되지 않는 숫자
+		//hashCode()-->주소값에 대응되는 중복되지 않는 숫자
 		System.out.println("#obj.hashCode()");
 		Object obj01 = new Object();
 		Object obj02 = new Object();
